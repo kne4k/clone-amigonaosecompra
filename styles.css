@@ -114,6 +114,7 @@
   display: block;
   position: relative;
   border-radius: 10px;
+  text-decoration: inherit;
 }
 .imagemgrid {
   width: 100%;
@@ -152,4 +153,17 @@
   padding: 16px;
   justify-content: center;
   cursor: pointer;
+}
+.textosincentivo {
+  background-color: red;
+  display: flex;
+}
+.imagemetextoincentivo {
+  width: 33%;
+  display: flex;
+  padding: 10px;
+}
+.imagempqadotar {
+  width: 35%;
+  height: 60%;
 }
