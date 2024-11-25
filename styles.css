@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Patua+One&display=swap");
+
 .body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Open Sans";
   margin: 0;
 }
 .navbar {
@@ -91,46 +93,51 @@
 }
 .title1 {
   color: rgba(97, 51, 135, 1);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 2.5rem;
   margin: 0;
   margin-bottom: 1rem;
   margin-top: 1rem;
+  font-family: "Patua One";
+  font-weight: inherit;
 }
 .text1 {
   font-size: 1.25rem;
   color: rgb(107, 114, 128);
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.gridpets {
+.grid {
   gap: 1rem;
   justify-content: center;
   display: flex;
   margin-top: 1rem;
 }
-.novopet {
+.novogridpets {
   background-color: white;
   display: block;
   position: relative;
   border-radius: 10px;
   text-decoration: inherit;
+  width: 25%;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.29);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.29);
 }
 .imagemgrid {
   width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-.nomenovopet {
-  padding: 10px;
+.titlegrid {
+  padding: 20px;
+  padding-top: 15px;
   padding-bottom: 0px;
   margin: 0px;
   font-size: 20px;
   font-weight: 700;
   color: rgb(97 51 135);
+  padding-left: 20px;
 }
-.localnovopet {
-  padding: 10px;
+.textgrid {
+  padding: 20px;
   padding-top: 0px;
   margin: 0px;
   font-size: 14px;
@@ -153,17 +160,162 @@
   padding: 16px;
   justify-content: center;
   cursor: pointer;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.29);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.29);
 }
 .textosincentivo {
-  background-color: red;
   display: flex;
+  justify-content: space-around;
+  gap: 15px;
 }
 .imagemetextoincentivo {
   width: 33%;
   display: flex;
-  padding: 10px;
+  padding: 15px;
+  align-items: center;
+  background-color: white;
+  border: solid;
+  border-color: rgb(238 169 0);
+  border-radius: 10px;
+  border-width: 1px;
 }
 .imagempqadotar {
   width: 35%;
-  height: 60%;
+  height: 50%;
+}
+.divtextopqadotar {
+  padding: 5px;
+}
+.textochamativo {
+  color: rgb(97 51 135);
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+.textosimples {
+  margin: 0;
+  text-align: justify;
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+.titleblog {
+  color: rgba(97, 51, 135, 1);
+  font-size: 2.5rem;
+  margin: 0;
+  margin-top: 1rem;
+  font-family: "Patua One";
+  font-weight: inherit;
+}
+.novogridblog {
+  background-color: white;
+  display: block;
+  position: relative;
+  border-radius: 10px;
+  width: 33%;
+  height: 500px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.29);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.29);
+}
+.divtextgrid {
+  padding: 24px;
+  max-height: 18rem;
+}
+
+.titlegrid2 {
+  margin: 0px;
+  margin-bottom: 18px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: rgb(97 51 135);
+}
+.textgrid2 {
+  margin: 0px;
+  font-size: 1rem;
+  color: #6b7484;
+}
+.textinherit {
+  text-decoration: inherit;
+}
+.absolutelermais {
+  display: block;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.lermais {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 10px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  align-items: baseline;
+}
+.textlermais {
+  font-size: 12px;
+  margin: 0;
+  color: rgb(156 163 175);
+  font-weight: 600;
+  letter-spacing: 0.025rem;
+  vertical-align: bottom;
+}
+.setalermais {
+  color: rgb(229 231 235);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+}
+.rodape {
+  background-color: rgb(97 51 135);
+  padding: 1.5rem;
+}
+.gridrodape {
+  gap: 0.25rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  width: 100%;
+  font-size: 14px;
+}
+.itemgridrodape {
+  display: block;
+  margin: 0;
+  margin-top: 20px;
+}
+.titlerodape {
+  color: white;
+  margin: 0;
+  font-weight: 700;
+}
+.textrodape {
+  color: white;
+  margin: 0;
+  margin-top: 4px;
+}
+.redessociais {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.direitosreservados {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  margin-top: 2rem;
+}
+.textdireitos {
+  color: white;
+  font-size: 12px;
+  margin: 0;
+  margin-top: 3px;
 }
